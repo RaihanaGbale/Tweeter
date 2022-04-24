@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tweeter</title>
+  <link href="https://fonts.googleapis.com/css?family=Balthazar" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/1ec24a7f37.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <h1 id="title">Tweeter</h1>
+    <input type="text" placeholder="What's on your mind?" id="input">
+    <div id="post">Twit  :)</div>
+    <div id="posts">
+
+      <div id="TweeterPostsContainer" class="posts">
+
+        <div id="p1" class="post">
+          
+          <div class="post-text">
+  
+            The First Post!</div>
+
+          <div id="comments">
+
+            <div class="comment">
+              <i class="fa-solid fa-xmark delete-comment"></i>
+              <div class="comments">this is the first comment</div>
+            </div>
+
+            <div class="comment">
+              <i class="fa-solid fa-xmark delete-comment"></i>
+              <div class="comments" id="c6">this is the first comment</div>
+            </div>
+
+          </div>
+
+          <div id="CommentWrite">
+            <input type="text" placeholder="write a comment!">
+            <button type="submit">Comment</button>
+
+          </div>
+          <div class="delete">Delete</div>
+
+        </div>
+
+      </div>
+  
+
+
+    </div>
+  </div>
+
+  <script src="Model.js"></script>
+  <script src="View.js"></script>
+  <script src="Controller.js"></script>
+  
+</body>
+
+</html>
